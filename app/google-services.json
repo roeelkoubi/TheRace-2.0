@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "942435644804",
+    "project_id": "spongebobrace",
+    "storage_bucket": "spongebobrace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942435644804:android:be284e79c85348ad9d99d1",
+        "android_client_info": {
+          "package_name": "com.example.game_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942435644804-uk9d4riofahdakle16toqi09pmffjqef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBPwLpfzl7vnshntQWPLVOXnNM1johSBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942435644804-uk9d4riofahdakle16toqi09pmffjqef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

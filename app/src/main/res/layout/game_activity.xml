@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackground"
+    android:orientation="vertical"
+    tools:context="com.example.game_1.Game_activity">
+
+    <LinearLayout
+        android:id="@+id/HeartsLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="end"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/TimerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingHorizontal="8dp"
+            android:text="Timer"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"/>
+
+
+        <ImageView
+            android:id="@+id/heart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/heart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/heart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/HeartsLayout">
+        <ImageView
+            android:id="@+id/jellyfish1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:src="@drawable/jellyfish">
+        </ImageView>
+        <ImageView
+            android:id="@+id/jellyfish2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:src="@drawable/jellyfish">
+        </ImageView>
+        <ImageView
+            android:id="@+id/jellyfish3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:src="@drawable/jellyfish">
+        </ImageView>
+        <ImageView
+            android:id="@+id/jellyfish4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:src="@drawable/jellyfish">
+        </ImageView>
+        <ImageView
+            android:id="@+id/jellyfish5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:src="@drawable/jellyfish">
+        </ImageView>
+        <ImageView
+            android:id="@+id/jellyfish6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:src="@drawable/jellyfish">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/HeartsLayout"
+        android:gravity="top"
+        >
+
+        <ImageView
+            android:id="@+id/patty1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheeseburger" />
+
+        <ImageView
+            android:id="@+id/patty2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheeseburger" />
+
+        <ImageView
+            android:id="@+id/patty3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheeseburger"
+
+            />
+
+        <ImageView
+            android:id="@+id/patty4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheeseburger"
+
+            />
+
+        <ImageView
+            android:id="@+id/patty5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheeseburger"
+            />
+        <ImageView
+            android:id="@+id/patty6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheeseburger"
+            />
+
+    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/leftArrow"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        </ImageButton>
+
+    <ImageView
+        android:id="@+id/spongebob"
+        android:layout_width="40dp"
+        android:layout_height="164dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/spongebob"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+        <ImageButton
+            android:id="@+id/rightArrow"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/right"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
